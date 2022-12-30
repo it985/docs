@@ -26,6 +26,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "vuepress-plugin-helper-live2d": "^1.0.2"
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-immersive-music-player": "^1.2.4"
   }
 }

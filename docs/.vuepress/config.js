@@ -133,8 +133,7 @@ module.exports = {
       endDate: '2020-04-04 23:59:59' //设置哀悼日的结束日期
     }],
 
-    [
-      'vuepress-plugin-helper-live2d', {
+    ['vuepress-plugin-helper-live2d', {
         // 是否开启控制台日志打印(default: false)
         log: false,
         live2d: {
@@ -158,7 +157,11 @@ module.exports = {
           }
         }
       }
-    ]
+    ],
+    ['vuepress-plugin-immersive-music-player',{
+      sliderStyle:{theme: 'isSpitRainbow'}, //配置播放进度条
+      playListID: 633015043, //网易云歌单ID
+    }]
   ],
 
   // 插件
@@ -166,6 +169,7 @@ module.exports = {
 
     ['graysite'],//使您的网站变灰的插件
     ['vuepress-plugin-helper-live2d'], //VuePress集成Live2D看板娘
+    ['vuepress-plugin-immersive-music-player'],//一个沉浸式个性化的vuepress 音乐插件
     [require('./plugins/love-me'), { // 鼠标点击爱心特效
       color: '#11a8cd', // 爱心颜色，默认随机色
       excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
