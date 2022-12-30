@@ -131,12 +131,13 @@ module.exports = {
   // 插件
   plugins: [
 
+    ['go-top'],// 点击这么可爱的猫回到顶部！https://moefyit.github.io/moefy-vuepress/packages/go-top.html
     //使您的网站变灰的插件
     ['graysite', {
       startDate: '2020-04-03 00:00:00', //设置哀悼日的开始日期
       endDate: '2020-04-04 23:59:59' //设置哀悼日的结束日期
     }],
-    // 在 vuepress 中为您的鼠标添加可爱的点击效果
+    // 在 vuepress 中为您的鼠标添加可爱的点击效果 https://moefyit.github.io/moefy-vuepress/packages/cursor-effects.html
     [
       'cursor-effects',
       {
