@@ -129,7 +129,7 @@ module.exports = {
   },
 
   plugins: [
-    ['graysite',{
+    ['graysite', {
       startDate: '2020-04-03 00:00:00', //设置哀悼日的开始日期
       endDate: '2020-04-04 23:59:59' //设置哀悼日的结束日期
     }],
@@ -163,6 +163,14 @@ module.exports = {
     //   sliderStyle:{theme: 'isSpitRainbow'}, //配置播放进度条
     //   playListID: 633015043, //网易云歌单ID
     // }],
+
+    // 站点信息代码
+    [
+      {
+        name: 'custom-plugins',
+        globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      }
+    ]
   ],
 
   // 插件
