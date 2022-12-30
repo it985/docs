@@ -127,8 +127,18 @@ module.exports = {
     htmlModules,
   },
 
+  plugins: [
+    ['graysite',{
+      startDate: '2020-04-03 00:00:00', //设置哀悼日的开始日期
+      endDate: '2020-04-04 23:59:59' //设置哀悼日的结束日期
+    }]
+  ],
+
   // 插件
   plugins: [
+
+    ['graysite'],//使您的网站变灰的插件
+
     [require('./plugins/love-me'), { // 鼠标点击爱心特效
       color: '#11a8cd', // 爱心颜色，默认随机色
       excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
