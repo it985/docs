@@ -17,13 +17,6 @@ features: # 可选的
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
-
-# 首页大图 https://notes.youngkbt.cn/about/website/index-big-img/
-pageClass: vdoing-index-class
-# bannerBg: /img/index/bg.jpg  # 你的图片路径(必须位于 public 下)，可以是 URL
-bodyBgImg: /img/index/bg.jpg,  # 你的图片路径(必须位于 public 下)，可以是 URL
-bodyBgImgOpacity: 1, # body 背景图透明度，选值 0 ~ 1.0, 默认0.5
-
 ---
 <p align="center">
   <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
