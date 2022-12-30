@@ -3,6 +3,14 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 生成静态文件
+npm run docs:build
+
+# 进入生成的文件夹
+cd docs/.vuepress/dist
+
+# 如果是发布到自定义域名
+echo 'docs.tryrun.top' > CNAME
 
 push_addr=`git remote get-url --push origin` # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
 commit_info=`git describe --all --always --long`
