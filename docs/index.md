@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 heroText: vuepress-theme-vdoing
-tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
+tagline: 🚀一款简洁高效的VuePress 知识管理
 actionText: 开始使用 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -18,7 +18,7 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-<p align="center">
+<!-- <p align="center">
   <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
 </p>
 
@@ -31,23 +31,23 @@ postList: none
   box-sizing: border-box;
   border: 1px solid #11a8cd;
 }
-</style>
+</style> -->
 
-<br/>
+<!-- <br/>
 <p align="center">
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/dt/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
-</p>
+</p> -->
 
-<br/>
+<!-- <br/>
 <p align="center" style="color: #999;">
   赞助商
 </p>
 <p align="center">
   <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/441669861566_.2bedplbm21hc.jpg" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
-</p>
+</p> -->
 
 ## 🎖特别用户
 ::: cardList 3
@@ -121,14 +121,14 @@ postList: none
 
 <br/> -->
 
-## ⚡ 反馈与交流
+<!-- ## ⚡ 反馈与交流 -->
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
+<!-- 在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
 你也可以在Issue查看别人提的问题和给出解决方案。
 
-或者加入我们的交流群：
+或者加入我们的交流群： -->
 
-<table>
+<!-- <table>
   <tbody>
     <tr>
       <td align="center" valign="middle">
@@ -141,11 +141,11 @@ postList: none
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+<!-- <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
 <style>
   .page-wwads{
     width:100%!important;
@@ -166,9 +166,9 @@ postList: none
     padding-top: 5px;
     display: block;
   }
-</style>
+</style> -->
 
-<ClientOnly>
-  <IndexBigImg />
+<!-- <ClientOnly> -->
+  <!-- <IndexBigImg /> -->
   <!-- <Fantasy index="true" /> -->
-</ClientOnly>
+<!-- </ClientOnly> -->
