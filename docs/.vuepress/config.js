@@ -109,11 +109,11 @@ module.exports = {
           title: '发邮件',
           link: 'mailto:2071916845@qq.com'
         },
-        {
-          iconClass: 'icon-github',
-          title: 'GitHub',
-          link: 'https://github.com/it985'
-        },
+        // {
+        //   iconClass: 'icon-github',
+        //   title: 'GitHub',
+        //   link: 'https://github.com/it985'
+        // },
         {
           iconClass: 'icon-erji',
           title: '听音乐',
@@ -122,8 +122,8 @@ module.exports = {
       ]
     },
     footer: { // 页脚信息
-      createYear: 2019, // 博客创建年份
-      copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
+      createYear: 2023, // 博客创建年份
+      // copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
@@ -138,14 +138,14 @@ module.exports = {
       endDate: '2020-04-04 23:59:59' //设置哀悼日的结束日期
     }],
     // 在 vuepress 中为您的鼠标添加可爱的点击效果 https://moefyit.github.io/moefy-vuepress/packages/cursor-effects.html
-    [
-      'cursor-effects',
-      {
-        size: 2, // size of the particle, default: 2
-        shape: ['star' | 'circle'], // shape of the particle, default: 'star'
-        zIndex: 999999999, // z-index property of the canvas, default: 999999999
-      },
-    ],
+    // [
+    //   'cursor-effects',
+    //   {
+    //     size: 2, // size of the particle, default: 2
+    //     shape: ['star' | 'circle'], // shape of the particle, default: 'star'
+    //     zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    //   },
+    // ],
     // ['vuepress-plugin-helper-live2d'], //VuePress集成Live2D看板娘
     // ['vuepress-plugin-immersive-music-player'],//一个沉浸式个性化的vuepress 音乐插件
     ['vuepress-plugin-baidu-autopush'], //百度站点自动推送 Vuepress 插件
